@@ -1,0 +1,167 @@
+num: 1
+kind: prep
+days:
+  - num: 1
+    kind: TEST
+    name: BASELINE TEST
+    excercises:
+      - name: BASELINE TEST
+        num: 1
+        kind: TEST
+  - num: 2
+    kind: STR
+    name: STR 1
+    dress: PT
+    excercises:
+      - name: MED BALL SLAM
+        num: 1
+        kind: STR
+        sets: 3
+        reps: 6
+        weight: 7
+        rest: 60
+      - name: BACK SQUAT
+        num: 2
+        kind: STR
+        sets: 3
+        reps: 10
+        perc_lo: 0.65
+        perc_hi: 0.75
+        rest: 120
+      - name: BENCH PRESS
+        num: 3
+        kind: STR
+        sets: 3
+        reps: 10
+        perc_lo: 0.65
+        perc_hi: 0.75
+        rest: 120
+      - name: LAT PULL DOWN
+        num: 4
+        kind: STR
+        sets: 3
+        reps: 12
+        perc_lo: 0.65
+        perc_hi: 0.75
+        rest: 120
+      - name: DB BENT OVER ROW
+        num: 5
+        kind: STR
+        sets: 3
+        reps: 12
+        perc_lo: 0.65
+        perc_hi: 0.75
+        rest: 45
+      - name: CALF RAISE
+        num: 6
+        kind: STR
+        sets: 3
+        reps: 20
+        perc_lo: 0.65
+        perc_hi: 0.75
+        rest: 45
+  - num: 3
+    kind: ESD
+    name: ESD 1
+    dress: PT
+    excercises:
+      - name: ESD INTERVALS
+        kind: ESD
+        mhr: 0.9
+        sets: 3
+        dist: 1600
+        rest: 120
+  - num: 4
+    kind: STR
+    name: STR 2
+    dress: PT
+    excercises:
+      - name: BROAD JUMP
+        num: 1
+        kind: STR
+        sets: 3
+        reps: 6
+        rest: 60
+      - name: DEADLIFT
+        num: 2
+        kind: STR
+        sets: 3
+        reps: 10
+        perc_lo: 0.65
+        perc_hi: 0.75
+        rest: 120
+      - name: BARBELL LUNGE
+        num: 3
+        kind: STR
+        sets: 3
+        reps: 10
+        perc_lo: 0.65
+        perc_hi: 0.75
+        rest: 120
+      - name: STANDING PRESS
+        num: 4
+        kind: STR
+        sets: 3
+        reps: 12
+        perc_lo: 0.65
+        perc_hi: 0.75
+        rest: 60
+      - name: GHD/NORDIC RAISE
+        num: 5
+        kind: STR
+        sets: 3
+        reps: 12
+        perc_lo: 0.65
+        perc_hi: 0.75
+        rest: 60
+      - name: CALF RAISE
+        num: 6
+        kind: STR
+        sets: 3
+        reps: 20
+        perc_lo: 0.65
+        perc_hi: 0.75
+        rest: 45
+  - num: 5
+    kind: GPP
+    name: GPP WEEK 1
+    dress: PT
+    excercises:
+      - name: WALKING LUNGE
+        num: 1
+        kind: GPP
+        sets: 10
+        reps: 15
+        weight: 20
+        rest: 60
+      - name: PUSH PRESS
+        num: 2
+        kind: GPP
+        sets: 10
+        reps: 15
+        weight: 20
+        rest: 60
+      - name: BURPEE
+        num: 3
+        kind: GPP
+        sets: 10
+        reps: 15
+        rest: 60
+      - name: FARMERS WALK 30M
+        num: 4
+        kind: GPP
+        sets: 10
+        reps: 15
+        weight: 24
+  - num: 6
+    kind: ELC
+    name: ELC WEEK 1
+    dress: MARCHING ORDER
+    excercises:
+      - name: PACK MARCH
+        num: 1
+        weight: 18
+        dist: 7000
+
+
+

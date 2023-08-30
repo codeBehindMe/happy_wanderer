@@ -1,0 +1,12 @@
+program:
+  weeks:
+    - num: 1
+      type: prep
+      days:
+        - num: 1
+          type: TEST
+          name: BASELINE TEST
+        - num: 2
+          type: STR
+          name: STR 1
+

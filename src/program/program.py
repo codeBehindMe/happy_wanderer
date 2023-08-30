@@ -17,3 +17,10 @@ class Plan:
         start_date: str = None  # FIXME
         end_date: str = None  # FIXME
         self.weeks: List[Week] = []
+        
+    def add_week(self, w : Week):
+        self.weeks.append(w)
+
+
+_plan : Plan = Plan()
+

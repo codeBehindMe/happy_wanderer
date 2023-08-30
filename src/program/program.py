@@ -1,5 +1,4 @@
 from typing import Dict, List
-from 
 
 
 class Day:
@@ -20,16 +19,20 @@ class Plan:
         start_date: str = None  # FIXME
         end_date: str = None  # FIXME
         self.weeks: List[Week] = []
-        
-    def add_week(self, w : Week):
+
+    def add_week(self, w: Week):
         self.weeks.append(w)
 
 
 def program_factory(d: Dict):
+    week: Week
     for week in d["program"]["weeks"]:
         w = Week(week["num"], week["kind"])
+
+        day: Dict
         for day in week["days"]:
             d = Day(day["num"], day["kind"])
-            for excercise in day["excercises"]:
-                
 
+            excercise: Dict
+            for excercise in day["excercises"]:
+                pass

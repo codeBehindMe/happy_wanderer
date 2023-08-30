@@ -1,14 +1,17 @@
-from typing import List
+from typing import Dict, List
+from 
 
 
 class Day:
-    def __init__(self, day_number: int) -> None:
+    def __init__(self, day_number: int, kind: str) -> None:
         self.day_number: int = day_number
+        self.kind = kind
 
 
 class Week:
-    def __init__(self, week_number: int) -> None:
+    def __init__(self, week_number: int, kind: str) -> None:
         self.week_number: int = week_number
+        self.kind: str = kind
         self.days: List[Day] = []
 
 
@@ -22,5 +25,11 @@ class Plan:
         self.weeks.append(w)
 
 
-_plan : Plan = Plan()
+def program_factory(d: Dict):
+    for week in d["program"]["weeks"]:
+        w = Week(week["num"], week["kind"])
+        for day in week["days"]:
+            d = Day(day["num"], day["kind"])
+            for excercise in day["excercises"]:
+                
 

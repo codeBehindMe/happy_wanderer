@@ -1,12 +1,51 @@
 program:
   weeks:
     - num: 1
-      type: prep
+      kind: prep
       days:
         - num: 1
-          type: TEST
+          kind: TEST
           name: BASELINE TEST
+          excercises:
+            - name: BASELINE TEST
+              kind: TEST
         - num: 2
-          type: STR
+          kind: STR
           name: STR 1
+          excercises:
+            - name: MED BALL SLAM
+              sets: 3
+              reps: 6
+              weight: 7
+              rest: 60
+            - name: BACK SQUAT
+              sets: 3
+              reps: 10
+              perc_low: 0.65
+              perc_high: 0.75
+              rest: 120
+            - name: BENCH PRESS
+              sets: 3
+              reps: 10
+              perc_low: 0.65
+              perc_high: 0.75
+              rest: 120
+            - name: LAT PULL DOWN
+              sets: 3
+              reps: 12
+              perc_low: 0.65
+              perc_high: 0.75
+              rest: 120
+            - name: DB BENT OVER ROW
+              sets: 3
+              reps: 12
+              perc_low: 0.65
+              perc_hi: 0.75
+              rest: 45
+            - name: CALF RAISE
+              sets: 3
+              reps: 20
+              perc_low: 0.65
+              perc_hi: 0.75
+              rest: 45
 

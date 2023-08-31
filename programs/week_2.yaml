@@ -1,0 +1,41 @@
+num: 2
+kind: prep
+days:
+  - num: 1
+    kind: STR
+    name: STR 1
+    excercises:
+      - name: MED BALL SLAM
+        num: 1
+        kind: STR
+        sets: 3
+        reps: 6
+        weight: 7
+        rest: 60
+      - name: BACK SQUAT
+        num: 2
+        kind: STR
+        sets: 3
+        reps: 8
+        perc_hi: 0.75
+        perc_lo: 0.65
+        rest: 120
+      - name: BENCH PRESS
+        num: 3
+        kind: STR
+        sets: 3
+        reps: 8
+        perc_hi: 0.75
+        perc_lo: 0.65
+        rest: 120
+      - name: LAT PULL DOWN
+        num: 4
+        kind: STR
+        sets: 3
+        reps: 12
+        perc_hi: 0.75
+        perc_lo: 0.65
+        rest: 120
+      - name: DB BENT OVER ROW
+        num: 5
+        
